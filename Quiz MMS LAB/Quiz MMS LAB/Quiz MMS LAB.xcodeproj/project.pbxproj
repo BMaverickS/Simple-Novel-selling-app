@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA6FC0B2253726C400E6BCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FC0B1253726C400E6BCA6 /* AppDelegate.swift */; };
+		CA6FC0B4253726C400E6BCA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FC0B3253726C400E6BCA6 /* SceneDelegate.swift */; };
+		CA6FC0B6253726C400E6BCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FC0B5253726C400E6BCA6 /* ViewController.swift */; };
+		CA6FC0B9253726C500E6BCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FC0B7253726C500E6BCA6 /* Main.storyboard */; };
+		CA6FC0BB253726E100E6BCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6FC0BA253726E100E6BCA6 /* Assets.xcassets */; };
+		CA6FC0BE253726E100E6BCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6FC0BC253726E100E6BCA6 /* LaunchScreen.storyboard */; };
+		CA6FC0C9253726E200E6BCA6 /* Quiz_MMS_LABTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FC0C8253726E200E6BCA6 /* Quiz_MMS_LABTests.swift */; };
+		CA6FC0D4253726E300E6BCA6 /* Quiz_MMS_LABUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FC0D3253726E300E6BCA6 /* Quiz_MMS_LABUITests.swift */; };
+		CA7BBC20253A9EA400B6A8B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BBC1F253A9EA400B6A8B8 /* HomeViewController.swift */; };
+		CA7BBC2A253AC3DD00B6A8B8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BBC29253AC3DD00B6A8B8 /* HomePageViewController.swift */; };
+		CA7CB5C5253C122B008E7FC8 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7CB5C4253C122B008E7FC8 /* ProfilePageViewController.swift */; };
+		CA7CB5CA253C6DB2008E7FC8 /* CheckoutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7CB5C9253C6DB2008E7FC8 /* CheckoutPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA6FC0C5253726E200E6BCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6FC0A6253726C300E6BCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6FC0AD253726C400E6BCA6;
+			remoteInfo = "Quiz MMS LAB";
+		};
+		CA6FC0D0253726E300E6BCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA6FC0A6253726C300E6BCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA6FC0AD253726C400E6BCA6;
+			remoteInfo = "Quiz MMS LAB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA6FC0AE253726C400E6BCA6 /* Quiz MMS LAB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz MMS LAB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FC0B1253726C400E6BCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA6FC0B3253726C400E6BCA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA6FC0B5253726C400E6BCA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA6FC0B8253726C500E6BCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6FC0BA253726E100E6BCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6FC0BD253726E100E6BCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6FC0BF253726E100E6BCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6FC0C4253726E200E6BCA6 /* Quiz MMS LABTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz MMS LABTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FC0C8253726E200E6BCA6 /* Quiz_MMS_LABTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_MMS_LABTests.swift; sourceTree = "<group>"; };
+		CA6FC0CA253726E200E6BCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6FC0CF253726E300E6BCA6 /* Quiz MMS LABUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz MMS LABUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FC0D3253726E300E6BCA6 /* Quiz_MMS_LABUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_MMS_LABUITests.swift; sourceTree = "<group>"; };
+		CA6FC0D5253726E300E6BCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7BBC1F253A9EA400B6A8B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CA7BBC29253AC3DD00B6A8B8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		CA7CB5C4253C122B008E7FC8 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		CA7CB5C9253C6DB2008E7FC8 /* CheckoutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6FC0AB253726C400E6BCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0C1253726E200E6BCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0CC253726E200E6BCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA6FC0A5253726C300E6BCA6 = {
+			isa = PBXGroup;
+			children = (
+				CA6FC0B0253726C400E6BCA6 /* Quiz MMS LAB */,
+				CA6FC0C7253726E200E6BCA6 /* Quiz MMS LABTests */,
+				CA6FC0D2253726E300E6BCA6 /* Quiz MMS LABUITests */,
+				CA6FC0AF253726C400E6BCA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6FC0AF253726C400E6BCA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FC0AE253726C400E6BCA6 /* Quiz MMS LAB.app */,
+				CA6FC0C4253726E200E6BCA6 /* Quiz MMS LABTests.xctest */,
+				CA6FC0CF253726E300E6BCA6 /* Quiz MMS LABUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6FC0B0253726C400E6BCA6 /* Quiz MMS LAB */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FC0B1253726C400E6BCA6 /* AppDelegate.swift */,
+				CA6FC0B3253726C400E6BCA6 /* SceneDelegate.swift */,
+				CA6FC0B5253726C400E6BCA6 /* ViewController.swift */,
+				CA6FC0B7253726C500E6BCA6 /* Main.storyboard */,
+				CA6FC0BA253726E100E6BCA6 /* Assets.xcassets */,
+				CA6FC0BC253726E100E6BCA6 /* LaunchScreen.storyboard */,
+				CA6FC0BF253726E100E6BCA6 /* Info.plist */,
+				CA7BBC1F253A9EA400B6A8B8 /* HomeViewController.swift */,
+				CA7BBC29253AC3DD00B6A8B8 /* HomePageViewController.swift */,
+				CA7CB5C4253C122B008E7FC8 /* ProfilePageViewController.swift */,
+				CA7CB5C9253C6DB2008E7FC8 /* CheckoutPageViewController.swift */,
+			);
+			path = "Quiz MMS LAB";
+			sourceTree = "<group>";
+		};
+		CA6FC0C7253726E200E6BCA6 /* Quiz MMS LABTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FC0C8253726E200E6BCA6 /* Quiz_MMS_LABTests.swift */,
+				CA6FC0CA253726E200E6BCA6 /* Info.plist */,
+			);
+			path = "Quiz MMS LABTests";
+			sourceTree = "<group>";
+		};
+		CA6FC0D2253726E300E6BCA6 /* Quiz MMS LABUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA6FC0D3253726E300E6BCA6 /* Quiz_MMS_LABUITests.swift */,
+				CA6FC0D5253726E300E6BCA6 /* Info.plist */,
+			);
+			path = "Quiz MMS LABUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6FC0AD253726C400E6BCA6 /* Quiz MMS LAB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6FC0D8253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LAB" */;
+			buildPhases = (
+				CA6FC0AA253726C400E6BCA6 /* Sources */,
+				CA6FC0AB253726C400E6BCA6 /* Frameworks */,
+				CA6FC0AC253726C400E6BCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiz MMS LAB";
+			productName = "Quiz MMS LAB";
+			productReference = CA6FC0AE253726C400E6BCA6 /* Quiz MMS LAB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA6FC0C3253726E200E6BCA6 /* Quiz MMS LABTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6FC0DB253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LABTests" */;
+			buildPhases = (
+				CA6FC0C0253726E200E6BCA6 /* Sources */,
+				CA6FC0C1253726E200E6BCA6 /* Frameworks */,
+				CA6FC0C2253726E200E6BCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6FC0C6253726E200E6BCA6 /* PBXTargetDependency */,
+			);
+			name = "Quiz MMS LABTests";
+			productName = "Quiz MMS LABTests";
+			productReference = CA6FC0C4253726E200E6BCA6 /* Quiz MMS LABTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA6FC0CE253726E200E6BCA6 /* Quiz MMS LABUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6FC0DE253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LABUITests" */;
+			buildPhases = (
+				CA6FC0CB253726E200E6BCA6 /* Sources */,
+				CA6FC0CC253726E200E6BCA6 /* Frameworks */,
+				CA6FC0CD253726E200E6BCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA6FC0D1253726E300E6BCA6 /* PBXTargetDependency */,
+			);
+			name = "Quiz MMS LABUITests";
+			productName = "Quiz MMS LABUITests";
+			productReference = CA6FC0CF253726E300E6BCA6 /* Quiz MMS LABUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6FC0A6253726C300E6BCA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CA6FC0AD253726C400E6BCA6 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					CA6FC0C3253726E200E6BCA6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CA6FC0AD253726C400E6BCA6;
+					};
+					CA6FC0CE253726E200E6BCA6 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = CA6FC0AD253726C400E6BCA6;
+					};
+				};
+			};
+			buildConfigurationList = CA6FC0A9253726C300E6BCA6 /* Build configuration list for PBXProject "Quiz MMS LAB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6FC0A5253726C300E6BCA6;
+			productRefGroup = CA6FC0AF253726C400E6BCA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6FC0AD253726C400E6BCA6 /* Quiz MMS LAB */,
+				CA6FC0C3253726E200E6BCA6 /* Quiz MMS LABTests */,
+				CA6FC0CE253726E200E6BCA6 /* Quiz MMS LABUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6FC0AC253726C400E6BCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FC0BE253726E100E6BCA6 /* LaunchScreen.storyboard in Resources */,
+				CA6FC0BB253726E100E6BCA6 /* Assets.xcassets in Resources */,
+				CA6FC0B9253726C500E6BCA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0C2253726E200E6BCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0CD253726E200E6BCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6FC0AA253726C400E6BCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FC0B6253726C400E6BCA6 /* ViewController.swift in Sources */,
+				CA7BBC2A253AC3DD00B6A8B8 /* HomePageViewController.swift in Sources */,
+				CA6FC0B2253726C400E6BCA6 /* AppDelegate.swift in Sources */,
+				CA6FC0B4253726C400E6BCA6 /* SceneDelegate.swift in Sources */,
+				CA7BBC20253A9EA400B6A8B8 /* HomeViewController.swift in Sources */,
+				CA7CB5C5253C122B008E7FC8 /* ProfilePageViewController.swift in Sources */,
+				CA7CB5CA253C6DB2008E7FC8 /* CheckoutPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0C0253726E200E6BCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FC0C9253726E200E6BCA6 /* Quiz_MMS_LABTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6FC0CB253726E200E6BCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6FC0D4253726E300E6BCA6 /* Quiz_MMS_LABUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA6FC0C6253726E200E6BCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6FC0AD253726C400E6BCA6 /* Quiz MMS LAB */;
+			targetProxy = CA6FC0C5253726E200E6BCA6 /* PBXContainerItemProxy */;
+		};
+		CA6FC0D1253726E300E6BCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA6FC0AD253726C400E6BCA6 /* Quiz MMS LAB */;
+			targetProxy = CA6FC0D0253726E300E6BCA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA6FC0B7253726C500E6BCA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6FC0B8253726C500E6BCA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6FC0BC253726E100E6BCA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6FC0BD253726E100E6BCA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6FC0D6253726E300E6BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA6FC0D7253726E300E6BCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6FC0D9253726E300E6BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LAB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LAB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6FC0DA253726E300E6BCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LAB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LAB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA6FC0DC253726E300E6BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LABTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LABTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz MMS LAB.app/Quiz MMS LAB";
+			};
+			name = Debug;
+		};
+		CA6FC0DD253726E300E6BCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LABTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LABTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz MMS LAB.app/Quiz MMS LAB";
+			};
+			name = Release;
+		};
+		CA6FC0DF253726E300E6BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LABUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LABUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quiz MMS LAB";
+			};
+			name = Debug;
+		};
+		CA6FC0E0253726E300E6BCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quiz MMS LABUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gslc.Quiz-MMS-LABUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quiz MMS LAB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6FC0A9253726C300E6BCA6 /* Build configuration list for PBXProject "Quiz MMS LAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FC0D6253726E300E6BCA6 /* Debug */,
+				CA6FC0D7253726E300E6BCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6FC0D8253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LAB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FC0D9253726E300E6BCA6 /* Debug */,
+				CA6FC0DA253726E300E6BCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6FC0DB253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LABTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FC0DC253726E300E6BCA6 /* Debug */,
+				CA6FC0DD253726E300E6BCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6FC0DE253726E300E6BCA6 /* Build configuration list for PBXNativeTarget "Quiz MMS LABUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6FC0DF253726E300E6BCA6 /* Debug */,
+				CA6FC0E0253726E300E6BCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6FC0A6253726C300E6BCA6 /* Project object */;
+}
